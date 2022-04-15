@@ -607,7 +607,8 @@ section .content .hay {
 
 
 .card-img {
-    max-width: 350px;
+    max-width: 360px;
+    height: 200px;
     overflow: hidden;
     position: relative;
     border: 2px solid #FFF56D;
