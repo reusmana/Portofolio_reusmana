@@ -309,7 +309,7 @@ section .content .hay {
 @media screen and (max-width:641px) {
 
     section {
-        padding: 90vh 10px 10px;
+        padding: 85vh 10px 10px;
     }
 
     section .content h2 {
