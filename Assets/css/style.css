@@ -517,11 +517,12 @@ section .content .hay {
 }
 
 .card-learn{
-    width: 350px;
+    flex-grow:1;
     border: 2px solid white;
     text-align: center;
     padding: 10px;
     margin-bottom: 20px;
+    margin-right : 20px;
 }
 
 .flex-learn{
