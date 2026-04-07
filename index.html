@@ -199,50 +199,17 @@
                         </td>
 
                     </tr>
-                    <tr>
-                        <td style="height: 10px;"></td>
-                    </tr>
-                    <tr>
-                        <td rowspan="2" class="icon"><i class='bx bxs-phone'></i></td>
-                        <td>
-                            <h3>Phone</h3>
-                        </td>
-
-                    </tr>
-                    <tr>
-                        <td>
-                                <p>(+62) 85210780093</p>
-                            <hr>
-                        </td>
-
-                    </tr>
                 </table>
                 
 
                 <table class="icon-baru">
                     <tr>
                         <td><h2><span style="color: #FFF56D;">Sosial</span> Media <div class="garis"></div> </h2></td>
-                        <td><a href="https://wa.link/u579g2"><i class="bx bxl-whatsapp"></i></a></td>
-                        <td><a href="https://www.instagram.com/res.mn_/"><i class="bx bxl-instagram"></i></a></td>
                         <td><a href="https://www.linkedin.com/in/reusmana-sujani-2b77ba237/"><i class="bx bxl-linkedin"></i></a></td>
                         <td><a href="https://github.com/reusmana"><i class="bx bxl-github"></i></a></td>
                     </tr>
                 </table>
 
-            </div>
-            <div class="card-2">
-                <div class="tabel-width">
-                    <!-- onsubmit="sendEmail(); reset();"-->
-                <form >
-                    <label for="">Your Name: </label><br>
-                    <input type="text" id="name" name='yourName' required placeholder="not working"><br>
-                    <label for=>Your Email: </label><br>
-                    <input type="email" id="email" name='yourEmail' required placeholder="not working"><br>
-                    <label for="">Your Message: </label><br>
-                    <textarea name="yourMessage" id="message" cols="30" rows="10" placeholder="not working"></textarea><br>
-                    <button type="submit" class="submit" onclick="notworking()">submit</button>
-                </form>
-            </div>
             </div>
         </div>
     </div>
@@ -278,23 +245,6 @@
             }
 
         })
-
-
-        function notworking(){
-            alert("this is not working");
-        }
-
-        function sendEmail() {
-            Email.send({
-                SecureToken: "b76be924-5693-43da-a87a-87251788d696",
-                To: 'reusmanasujani@gmail.com',
-                From: document.getElementById('email').value,
-                Subject: "New Contact Mail Portfolio",
-                Body: "And this is the body"
-            }).then(
-                message => alert(message)
-            );
-        }
     </script>
 
 </body>
